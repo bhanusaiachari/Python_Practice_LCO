@@ -13,7 +13,7 @@ for i in range(0, len(num)):
 print("Sum of numbers is : ", sum)
 
 # Cubing the elements in a list num[]
-cube_list = [pow(i, 3) for i in num]
+cube_list = [pow(i, len(num)) for i in num]
 # printing each element in a list
 for i in range(0, len(cube_list)):
     print("Cube of each number :", num[i], "is", cube_list[i])
